@@ -53,6 +53,6 @@ oc get route grafana-route -o jsonpath='{.spec.host}'
 ```
 
 Use the original credentials **root/secret** as user/password. These credentials are defined in the
-[Grafana CR](blob/main/metrics/grafana/grafana.yml) file.
+[Grafana CR](metrics/grafana/grafana.yml) file.
 
 
